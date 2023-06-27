@@ -1,0 +1,7 @@
+@function vw($px-vw, $base-vw: 1440px){
+  @return calc(($px-vw * 100vw) / $base-vw);
+}
+
+@function cqi($fz){
+  @return calc($fz / 1200 * 100cqi);
+}
